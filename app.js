@@ -10,7 +10,7 @@ async function findPanorama() {
                 founded = true;
                 // Создаем плеер с одной из полученных панорам.
                 var player = new ymaps.panorama.Player(
-                    'player1',
+                    'pano',
                     // Панорамы в ответе отсортированы по расстоянию
                     // от переданной в panorama.locate точки. Выбираем первую,
                     // она будет ближайшей.
